@@ -24,7 +24,8 @@ Install via pip:
 Alternatively, clone the repository manually:
 
 ```git
-cd jsonl_tools```
+cd jsonl_tools
+```
 
 ## Usage
 
