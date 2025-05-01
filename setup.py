@@ -7,7 +7,7 @@ setup(
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     author='vladimirkucin634',
-    author_email='vladimirkucin634@gmail.com',
+    author_email='vladimirkucin634@mail.ru',
     url='https://github.com/vladimirkucin634/jsonl_tools',
     packages=find_packages(),
     install_requires=[],  
