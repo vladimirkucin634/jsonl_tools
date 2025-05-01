@@ -63,7 +63,7 @@ jsonl_string = dumps([{"a": 1}, {"b": 2}])
 
 ### Convert Between Formats
 
-#### JSON → JSONL
+#### JSON $\rightarrow$ JSONL
 
 ```from
 
@@ -72,7 +72,7 @@ json_to_jsonl("data.json", "data.jsonl")
 
 Note: ``data.json must`` contain a top-level list ``([{}, {}, ...])``.
 
-#### JSONL → JSON
+#### JSONL $\rightarrow$ JSON
 
 ```from
 
