@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='jsonl_tools',
-    version='0.1.1',
+    version='0.1.2',
     description='A Python library for working with JSONL files',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
