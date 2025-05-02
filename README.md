@@ -40,7 +40,8 @@ with open("data.jsonl", "r", encoding="utf-8") as f:
 
 ### Load JSONL from a string
 
-```from
+```python
+from jsonl_tools import loads
 
 s = '{"a": 1}\n{"b": 2}'
 data = loads(s)
@@ -48,7 +49,8 @@ data = loads(s)
 
 ### Write to a JSONL file
 
-```from
+```python
+from jsonl_tools import dump
 
 data = [{"x": 1}, {"y": 2}]
 with open("output.jsonl", "w", encoding="utf-8") as f:
@@ -57,7 +59,9 @@ with open("output.jsonl", "w", encoding="utf-8") as f:
 
 ### Get a JSONL string
 
-```from
+```python
+from jsonl_tools import dumps
+
 jsonl_string = dumps([{"a": 1}, {"b": 2}])
 ```
 
@@ -65,7 +69,8 @@ jsonl_string = dumps([{"a": 1}, {"b": 2}])
 
 #### JSON $\rightarrow$ JSONL
 
-```from
+```python
+from jsonl_tools import json_to_jsonl
 
 json_to_jsonl("data.json", "data.jsonl")
 ```
@@ -74,7 +79,8 @@ Note: ``data.json must`` contain a top-level list ``([{}, {}, ...])``.
 
 #### JSONL $\rightarrow$ JSON
 
-```from
+```python
+from jsonl_tools import jsonl_to_json
 
 jsonl_to_json("data.jsonl", "data.json")
 ```
