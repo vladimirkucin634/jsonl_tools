@@ -6,6 +6,8 @@ plugins:
   - mkdocstrings
 
 markdown_extensions:
-  - admonition
   - toc:
       permalink: true
+
+nav:
+  - Home: index.md
