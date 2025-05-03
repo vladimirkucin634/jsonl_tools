@@ -1,0 +1,11 @@
+site_name: jsonl_tools
+theme:
+  name: material
+
+plugins:
+  - mkdocstrings
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
